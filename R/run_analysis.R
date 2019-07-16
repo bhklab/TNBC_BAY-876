@@ -1,3 +1,21 @@
+###########################################
+###########################################
+# Code to reproduce the fomputational analysis of this paper:
+# "GLUT1 inhibition blocks growth of RB1-positive Triple Negative Breast Cancer" by Wu et. al. 2019
+#
+# Code written by: Wail Ba-alawi, email: wail.ba-alawi@uhnresearch.ca
+#
+###########################################
+###########################################
+
+
+
+# **** IMPORTANT NOTES ****
+# 1. Once the project is downloaded to the user computer, the user needs to navigate to the main directory of the project "TNBC_BAY-876-master"
+# 2. Set the working directory to "TNBC_BAY-876-master" or double-click on TNBC_GLUT1.Rproj and it will set it automatically
+# 3. Make sure you have downloaded all the needed data files from the figshare url
+
+
 library(Biobase)
 library(PharmacoGx)
 library(ggplot2)
