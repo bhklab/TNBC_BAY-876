@@ -19,7 +19,7 @@ These R packages need to be installed in order to run the analysis script:
 - piano
 - fgsea
 - dplyr
-- EnrichmentBrowser
+- EnrichmentBrowser (devtools::install_github("lgeistlinger/EnrichmentBrowser")
 - ggrepel
 
 
