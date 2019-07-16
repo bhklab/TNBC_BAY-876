@@ -23,7 +23,7 @@ library(GSA)
 library(piano)
 library(fgsea)
 library(dplyr)
-library(EnrichmentBrowser)
+library(EnrichmentBrowser) # devtools::install_github("lgeistlinger/EnrichmentBrowser")
 library(ggrepel)
 
 
@@ -75,7 +75,7 @@ exprs(UHN_RNAseq_counts_sub) <- round(2^exprs(UHN_RNAseq_counts_sub)-1)
 
 UHN_RNAseq_counts_sub$GROUP <- as.factor(ifelse(UHN_RNAseq_counts_info$condition=="sensitive",1,0))
 
-deRes <- deAna(expr = UHN_RNAseq_counts_sub ,de.method = 'DESeq',min.cpm = -1)
+deRes <- deAna(expr = UHN_RNAseq_counts_sub ,de.method = 'DESeq',stat.only = F,filter.by.expr=F)
 deRes_final <- rowData(deRes)
 deRes_final <- deRes_final[!is.na(deRes_final$ADJ.PVAL),]
 rownames(deRes_final) <- deRes_final$gene_id
