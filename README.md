@@ -30,7 +30,7 @@ These R packages need to be installed in order to run the analysis script:
 
 
 **Important Note 1:** the user needs to set the working directory inside the script file before running it, i.e. setting the working directory to "TNBC_BAY-876-master" or double-click on TNBC_GLUT1.Rproj and it will set it automatically in RStudio
-**Important Note 2:** the user needs to download all the data needed for this code to work from "https://figshare.com/projects/TNBC_BAY876/65828" and put them inside the "data" folder of this repo.
+**Important Note 2:** the user needs to download all the data needed for this code to work from "https://figshare.com/projects/TNBC_BAY876/65828" and put them inside the "data" folder of this repo. Sensitivity data can be downloaded from "https://figshare.com/s/6e1782e040059d5a34e0" and will be made public in the figshare project once the paper is published.
 
 
 
